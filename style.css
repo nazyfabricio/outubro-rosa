@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style-type: none;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .cabeçalho {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+}
+header h1 {
+  color: #e4eef1;
+  font-size: 1.5vw;
+}
+header nav {
+  width: 40vw;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+  color: #e4eef1;
+}
+
+.Sobre {
+  height: 60vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Sobre p {
+  width: 38vw;
+  text-align: justify;
+  font-size: 1.5vw;
+}
+.Sobre img {
+  width: 25vw;
+}
+
+.Conscientizacao {
+  height: 40vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Conscientizacao p {
+  width: 38vw;
+  text-align: justify;
+  font-size: 1.5vw;
+}
+.Conscientizacao img {
+  width: 25vw;
+}
+
+.Dicas {
+  height: 60vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #ff69b4;
+  height: 20vh;
+}
+footer .rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} /*# sourceMappingURL=style.css.map */
